@@ -9,7 +9,7 @@
     "build:components": "webpack --mode=production --config ./webpack/components.config.js",
     "buildInLine": "cross-env  vue-cli-service build --target wc --name hello-world 'src/components/*.vue' --inline-vue",
     "buildlib": "cross-env  vue-cli-service build --target lib --name jcdc-sfc ./src/index.js",
-    "buildSFC": "cross-env  vue-cli-service build --target wc --name jcdc 'src/components/*.vue'"
+    "buildSFC": "cross-env  vue-cli-service build --target wc --name jcdc-sfc 'src/components/*.vue'"
   },
   "dependencies": {
     "@mdi/font": "^3.6.95",
