@@ -29,6 +29,11 @@ export default Vue.extend({
   }
 });
 </script>
-<style scoped>
-?????
-</style>
+<style lang="sass">
+  @import '~vuetify/src/styles/styles.sass'
+
+  @media #{map-get($display-breakpoints, 'md-and-down')}
+    .custom-class
+      disp
+</sytle>
+      
