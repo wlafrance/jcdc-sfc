@@ -1,12 +1,19 @@
 <template>
- <v-app id="app">
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <v-app id="app">
+    <div id="app">
+      <HelloWorld></HelloWorld>
     </div>
-    <router-view />
-  </div>
-</v-app>
+  </v-app>
 </template>
 
+<script>
+// @ is an alias to /src
+import HelloWorld from "@/components/hello-world.vue";
+
+export default {
+  name: "Home",
+  components: {
+    HelloWorld
+  }
+};
+</script>
